@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+
+.container {
+    width: 90%;
+    margin: 3em auto;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    width: 90%;
+    margin: 3em auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    padding: 1em;
+    border-radius: 7px;
+}
