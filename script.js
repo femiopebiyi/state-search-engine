@@ -7,6 +7,9 @@ function searchState (stateInput){
 
     let matches =  states.filter((state)=>{
         let regex =  new RegExp(`^${stateInput}`, "gi");
+        if(!state.match(regex)){
+            matchList.innerHTML = ""
+        }
         return state.match(regex)
     })
 
