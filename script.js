@@ -14,7 +14,7 @@ function searchState (stateInput){
     })
 
     if (search.value === ""){
-        matches = ""
+        matches = "femi"
     }
 
     html(matches)
